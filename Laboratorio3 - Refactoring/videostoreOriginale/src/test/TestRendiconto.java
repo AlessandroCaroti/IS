@@ -1,10 +1,13 @@
 package test;
 
+import org.junit.jupiter.api.Test;
 import videostore.Cliente;
 import videostore.Film;
 import videostore.Noleggio;
 
 public class TestRendiconto {
+
+
 
 	public static void main(String[] args) {
 		Cliente cliente1 = new Cliente("Gianni");
