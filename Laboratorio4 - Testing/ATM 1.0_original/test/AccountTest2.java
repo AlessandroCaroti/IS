@@ -8,7 +8,6 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.util.Random;
 
 class AccountTest2 {
-
     private Account account;
     private int accountNumber; // account number
     private int pin;
