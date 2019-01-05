@@ -46,11 +46,11 @@ class EuroTest {
 
     @ParameterizedTest
     @ValueSource(doubles = {0.0, 0.50, 500.0, 120.23})
-    void sottrai(double valToAdd){
+    void sottrai(double valToSub){
         double initVal        = centToEuro(e.getValore());
-        long   expectedResult = euroToCent(initVal - valToAdd);
+        long   expectedResult = euroToCent(initVal - valToSub);
 
-        e.sottrai(new Euro(valToAdd));
+        e.sottrai(new Euro(valToSub));
 
         assertEquals(e.getValore(), expectedResult);
     }
