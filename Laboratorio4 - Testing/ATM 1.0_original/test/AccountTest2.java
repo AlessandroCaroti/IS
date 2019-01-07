@@ -40,7 +40,6 @@ class AccountTest2 {
     @Test
     void getTotalBalance() {
         assertEquals(totalBalance.getValore(),account.getTotalBalance().getValore());
-
     }
 
     @ParameterizedTest

@@ -43,7 +43,6 @@ public class Account
    public void credit(Euro amount )
    {
       totalBalance.somma( amount);
-      //totalBalance += amount; // add to total balance
    } // end method credit
 
    // debits an amount from the account
